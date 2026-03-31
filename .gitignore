@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+bosses/*
+!bosses/example-laozhou/
+!bosses/example-laozhou/**
