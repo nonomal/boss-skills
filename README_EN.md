@@ -27,4 +27,11 @@ Generated commands:
 - `/{slug}-management`
 - `/{slug}-persona`
 
-See [README.md](README.md) and [INSTALL.md](INSTALL.md) for the Chinese-first setup and workflow.
+Typical use cases:
+
+- simulate how your boss will review a proposal
+- practice how to report bad news or project risk
+- prepare a better update before a 1:1 or weekly sync
+- learn how to ask for resources or priority with this specific boss
+
+See [README.md](README.md) and [INSTALL.md](INSTALL.md) for the main workflow.

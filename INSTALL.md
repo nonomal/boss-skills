@@ -47,6 +47,13 @@ python3 tools/email_parser.py --help
 python3 tools/skill_writer.py --action list --base-dir ./bosses
 ```
 
+建议再手动走一遍最短闭环：
+
+1. 准备一份老板聊天记录文本
+2. 用解析器抽取老板原话
+3. 生成人设、判断、向上管理三份 markdown
+4. 用 `skill_writer.py --action create` 写入一个 boss
+
 ## 目录说明
 
 - `bosses/{slug}/judgment.md`
