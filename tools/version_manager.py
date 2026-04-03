@@ -25,6 +25,10 @@ ARCHIVE_FILES = (
 )
 
 
+def read_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8-sig"))
+
+
 def list_versions(skill_dir: Path) -> list[dict]:
     versions_dir = skill_dir / "versions"
     if not versions_dir.exists():
@@ -46,7 +50,7 @@ def rollback(skill_dir: Path, target_version: str) -> bool:
         return False
 
     meta_path = skill_dir / "meta.json"
-    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    meta = read_json(meta_path)
     current_version = meta.get("version", "v?")
     backup_dir = skill_dir / "versions" / f"{current_version}_before_rollback"
     backup_dir.mkdir(parents=True, exist_ok=True)
