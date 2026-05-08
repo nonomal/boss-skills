@@ -21,6 +21,16 @@
 
 </div>
 
+## 在线试用 🚀
+
+不想安装、不想配环境？直接在浏览器里和「老板」对练：
+
+👉 [**点此在浏览器中体验 create-boss**](https://socialistic.ai/en/skill/boss-skills-b0d021/?utm_source=github&utm_medium=issue&utm_campaign=xhs_college&utm_content=hyperlink)
+
+由 [socialistic.ai](https://socialistic.ai/?utm_source=github&utm_medium=issue&utm_campaign=xhs_college&utm_content=hyperlink) 提供——把 SKILL.md 转成零安装的浏览器体验，无需克隆仓库、无需 Claude Code、无需任何配置，打开就能用。
+
+> 感谢 [@shesl-tinkerland](https://github.com/shesl-tinkerland) 的建议与卡片生成。
+
 ---
 
 ## 支持的数据来源
